@@ -53,5 +53,7 @@ defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 # Setup mouse, trackpad speed
 defaults write -g com.apple.mouse.scaling 2
 defaults write -g com.apple.trackpad.scaling 2
-
+# Git config
+git config --global user.name "Ádám Pásztor" 
+git config --global user.email mrpasztoradam@gmail.com
 echo "MacBook setup completed!"
