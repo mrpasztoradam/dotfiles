@@ -56,4 +56,7 @@ defaults write -g com.apple.trackpad.scaling 2
 # Git config
 git config --global user.name "Ádám Pásztor" 
 git config --global user.email mrpasztoradam@gmail.com
+git config --global init.defaultBranch main
+# github
+gh auth login
 echo "MacBook setup completed!"
